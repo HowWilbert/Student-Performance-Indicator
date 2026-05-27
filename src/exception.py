@@ -1,5 +1,5 @@
 import sys 
-from logger import logging        
+from src.logger import logging        
 '''
 Used the global logger.py file, 
 logger.py file acts as a central logging configuration module.
