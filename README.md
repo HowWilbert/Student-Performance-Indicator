@@ -297,9 +297,7 @@ gunicorn application:app
 # Future Improvements
 
 - Docker support
-- CI/CD pipeline integration
 - Enhanced UI/UX
-- Hyperparameter tuning
 - Cloud optimization
 - Real-time analytics dashboard
 
