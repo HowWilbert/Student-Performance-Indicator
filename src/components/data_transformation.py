@@ -87,10 +87,10 @@ class DataTransformation:
             target_column_name = 'math_score'
             numerical_columns = ['writing_score','reading_score']
             
-            input_feature_train_df = train_df.drop(columns=[target_column_name],axis=1)    # temporary droping the Target column from training df ( X )
+            input_feature_train_df = train_df.drop(columns=[target_column_name])    # temporary droping the Target column from training df ( X )
             target_feature_train_df = train_df[target_column_name]                         # seperated the (y)
             
-            input_feature_test_df = test_df.drop(columns=[target_column_name],axis=1)      # similarly for the test data seperating the ( X and y)
+            input_feature_test_df = test_df.drop(columns=[target_column_name])      # similarly for the test data seperating the ( X and y)
             target_feature_test_df = test_df[target_column_name]
             
             logging.info(f"Applying preprocessing object on training dataframe and testing dataframe.") 
