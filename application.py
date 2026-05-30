@@ -1,5 +1,4 @@
-# pyrefly: ignore [missing-import]
-from flask import Flask,request,render_template,pyrefly
+from flask import Flask,request,render_template
 import pandas as pd
 import traceback
 
